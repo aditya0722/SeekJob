@@ -1,0 +1,13 @@
+.Animate-sidebar {
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+    background-color: aquamarine;
+}
+
+.Animate-sidebar-hidden {
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+.job-width{
+    width: 900px;
+}
