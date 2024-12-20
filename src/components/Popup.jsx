@@ -11,6 +11,7 @@ const Popup = ({ isOpen, onClose, children }) => {
                 WebkitBackdropFilter: "blur(10px) brightness(0.7)",
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
             }}
+            onClick={onClose}
         >
             <div className="relative max-w-full bg-white rounded-lg shadow-lg w-fit">
                 <button
